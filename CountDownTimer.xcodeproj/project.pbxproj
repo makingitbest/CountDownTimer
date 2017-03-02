@@ -13,6 +13,7 @@
 		40558B2E1E665C2D00C10FC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40558B2C1E665C2D00C10FC5 /* Main.storyboard */; };
 		40558B301E665C2D00C10FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40558B2F1E665C2D00C10FC5 /* Assets.xcassets */; };
 		40558B331E665C2D00C10FC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40558B311E665C2D00C10FC5 /* LaunchScreen.storyboard */; };
+		40558B3C1E665C8700C10FC5 /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 40558B3B1E665C8700C10FC5 /* Timer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		40558B2F1E665C2D00C10FC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40558B321E665C2D00C10FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40558B341E665C2D00C10FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40558B3A1E665C8700C10FC5 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		40558B3B1E665C8700C10FC5 /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				40558B271E665C2D00C10FC5 /* AppDelegate.m */,
 				40558B291E665C2D00C10FC5 /* ViewController.h */,
 				40558B2A1E665C2D00C10FC5 /* ViewController.m */,
+				40558B3A1E665C8700C10FC5 /* Timer.h */,
+				40558B3B1E665C8700C10FC5 /* Timer.m */,
 				40558B2C1E665C2D00C10FC5 /* Main.storyboard */,
 				40558B2F1E665C2D00C10FC5 /* Assets.xcassets */,
 				40558B311E665C2D00C10FC5 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 				40558B2B1E665C2D00C10FC5 /* ViewController.m in Sources */,
 				40558B281E665C2D00C10FC5 /* AppDelegate.m in Sources */,
 				40558B251E665C2D00C10FC5 /* main.m in Sources */,
+				40558B3C1E665C8700C10FC5 /* Timer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
